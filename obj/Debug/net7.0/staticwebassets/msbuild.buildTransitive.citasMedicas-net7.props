@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\citasMedicas-net7.props" />
+</Project>

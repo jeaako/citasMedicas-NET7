@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Metaenlace\\source\\repos\\citasMedicas-net7\\citasMedicas-net7\\citasMedicas-net7.csproj": {}
+    "C:\\Users\\Metaenlace\\source\\repos\\citasMedicas-NET7\\citasMedicas-net7\\citasMedicas-net7.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Metaenlace\\source\\repos\\citasMedicas-net7\\citasMedicas-net7\\citasMedicas-net7.csproj": {
+    "C:\\Users\\Metaenlace\\source\\repos\\citasMedicas-NET7\\citasMedicas-net7\\citasMedicas-net7.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Metaenlace\\source\\repos\\citasMedicas-net7\\citasMedicas-net7\\citasMedicas-net7.csproj",
+        "projectUniqueName": "C:\\Users\\Metaenlace\\source\\repos\\citasMedicas-NET7\\citasMedicas-net7\\citasMedicas-net7.csproj",
         "projectName": "citasMedicas-net7",
-        "projectPath": "C:\\Users\\Metaenlace\\source\\repos\\citasMedicas-net7\\citasMedicas-net7\\citasMedicas-net7.csproj",
+        "projectPath": "C:\\Users\\Metaenlace\\source\\repos\\citasMedicas-NET7\\citasMedicas-net7\\citasMedicas-net7.csproj",
         "packagesPath": "C:\\Users\\Metaenlace\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Metaenlace\\source\\repos\\citasMedicas-net7\\citasMedicas-net7\\obj\\",
+        "outputPath": "C:\\Users\\Metaenlace\\source\\repos\\citasMedicas-NET7\\citasMedicas-net7\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Metaenlace\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -40,11 +40,47 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[7.0.11, )"
             },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.11, )"
+            },
             "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            },
+            "Swashbuckle.AspNetCore.Swagger": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            },
+            "Swashbuckle.AspNetCore.SwaggerGen": {
               "target": "Package",
               "version": "[6.5.0, )"
             }

@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\citasMedicas-net7.props" />
+</Project>
